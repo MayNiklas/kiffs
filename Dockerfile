@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:slim
 
 RUN apt update -y && \
     apt upgrade -y && \
